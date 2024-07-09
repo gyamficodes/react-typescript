@@ -7,7 +7,7 @@ const name : string = "John";
 const age : number = 40;
 const isLogin : boolean = true;
 const language : (string | number)[] = ["John", "Yaw", "Kumasi", ];
-const [login , setLogin]  = useState<boolean>(false);
+const [login , setLogin]  = useState<boolean | string>(false);
 const log = () => {
   setLogin(!login);
 }
