@@ -1,18 +1,12 @@
-import React from 'react';
 
-interface AboutProps {
-  name: string;
-  ages: number;
-}
+// import React from 'react';
 
-const About: React.FC<AboutProps> = ({ name, ages }) => {
-  return (
-    <>
-      <h1>This is the About page</h1>
-      <p>Name: {name}</p>
-      <p>Age: {ages}</p>
-    </>
-  );
-};
 
-export default About;
+
+const  About = () => {
+    return(<>
+    <h1>this is about page</h1>
+  
+    </>)
+ }
+ export default About;
