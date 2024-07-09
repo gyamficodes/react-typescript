@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import Person from './assets/Components/Person';
 import './App.css'
 
 function App() {
@@ -31,6 +31,8 @@ const log = () => {
 
 }
 
+<Person prof={"FullStack Developer"} isMarried={false} Year={2021}/>
+{/* <Person prof={"FullStack Developer"} isMarried={true} Year={2021}/> */}
     </>
   )
 }
