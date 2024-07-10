@@ -1,8 +1,3 @@
-  export interface Person{
-    prof: string;
-    isMarried:boolean;
-    Year:number;
-}
 
 const  Person = (props : Person) => {
     return (<>Person
