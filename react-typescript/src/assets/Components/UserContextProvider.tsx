@@ -23,6 +23,7 @@ const initailvalues = {
     deletePerson: () => null
 }
 
+
 const useContext = createContext<PersonContextType>(initailvalues)
 
 interface Props {
