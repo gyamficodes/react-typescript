@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Person from './assets/Components/Person';
+import Button from './assets/Components/Button';
 import './App.css'
 
 function App() {
@@ -14,6 +15,8 @@ const log = () => {
 
  return(  
     <>
+    fontSize
+    <Button style={{backgroundColor:"red", color:"white" , fontSize: 30}}/>
      <h1>{name}</h1>
   <button  onClick={log}>LogIn</button>
   {
@@ -36,5 +39,6 @@ const log = () => {
     </>
   )
 }
+
 
 export default App
