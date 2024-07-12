@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Person from './assets/Components/Person';
 import Button from './assets/Components/Button';
 import './App.css'
+import Form from './assets/Components/Form';
 
 function App() {
 const name : string = "John";
@@ -15,8 +16,8 @@ const log = () => {
 
  return(  
     <>
-    fontSize
-    <Button style={{backgroundColor:"red", color:"white" , fontSize: 30}}/>
+      <Button style={{backgroundColor:"red", color:"white" , fontSize: 30}}/>
+    <Form/>
      <h1>{name}</h1>
   <button  onClick={log}>LogIn</button>
   {
