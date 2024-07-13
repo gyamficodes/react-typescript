@@ -48,9 +48,9 @@ const removeTodo = (id: User) => setTodos((todo) => todo.filter((data) => data.i
     </form>
     { todo.map(({name , text, id}) => (
        <div key={id}>
-        <li>{name}</li>
+        <h3>{name}</h3>
     <button onClick={() => removeTodo(id)}>Delete</button>
-        <li>{text}</li>
+        <h3>{text}</h3>
        </div>
     ))
       
