@@ -29,6 +29,7 @@ const removeTodo = (id: User) => setTodos((todo) => todo.filter((data) => data.i
     setTodos((prevTodos : any) => [...prevTodos, newUser])
   
   };
+  
 
   return (
 <>

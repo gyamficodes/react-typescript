@@ -16,6 +16,7 @@ const log = () => {
 
  return(  
     <>
+    {isLogin ? "hello" : "Not yet"}
       <Button style={{backgroundColor:"red", color:"white" , fontSize: 30}}/>
     <Form/>
      <h1>{name}</h1>
