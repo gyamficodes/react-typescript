@@ -12,6 +12,9 @@ const Form: React.FC = () => {
   const [todo, setTodos] =  useState<string[] >([]);
   
 
+
+  
+
   function generateId(){
    return Math.floor(Math.random() * 100)  
 }
