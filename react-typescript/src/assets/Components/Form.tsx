@@ -36,6 +36,7 @@ const removeTodo = (id: User) => setTodos((todo) => todo.filter((data) => data.i
 
   return (
 <>
+
 <form onSubmit={handleSubmit}>
       <input
         type="text"
